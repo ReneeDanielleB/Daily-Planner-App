@@ -18,83 +18,76 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
+      <h1 class="display-3">Work Day Schedule</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="row" id = "hr8">
-        <div class="time">8:00 am</div>
-        <textarea class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
+
+      <div class = "row time-block" id = "hr9">
+        <div class="hour col-md-2">9:00 am</div>
+        <textarea class ="description col-md-8 past" placeholder = "Good morning!"></textarea>
+        <button class ="btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class="row" id = "hr9">
-        <div class="time">9:00 am</div>
-        <textarea class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
+      <div class = "row time-block" id = "hr10">
+        <div class = "hour col-md-2">10:00 am</div>
+        <textarea class ="description col-md-8 past" placeholder = ""></textarea>
+        <button class ="btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class="row" id = "hr10">
-        <div class="time">10:00 am</div>
-        <textarea class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
+      <div class = "row time-block" id = "hr11">
+        <div class = "hour col-md-2">11:00 am</div>
+        <textarea class ="description col-md-8 past" placeholder = ""></textarea>
+        <button class ="btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class = "row" id = "hr11">
-        <div class="time">11:00 am</div>
-        <textarea class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
+      <div class="row time-block" id = "hr12">
+        <div class="hour col-md-2">12:00 pm</div>
+        <textarea class = "description col-md-8 past" placeholder = "You can do it!"></textarea>
+        <button class = "btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class="row" id = "hr12">
-        <div class="time">12:00 pm</div>
-        <textarea class = "task" placeholder = "tasks for today"></textarea>
-        <button class = "save">Save icon</button>
+      <div class = "row time-block" id = "hr1">
+        <div class = "hour col-md-2">1:00 pm</div>
+        <textarea class ="description col-md-8 present" placeholder = "Lunchtime!"></textarea>
+        <button class ="btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class = "row"id = "hr1" >
-        <div class = "time">1:00 pm</div>
-        <textarea type ="text" class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
+      <div class = "row time-block" id = "hr2">
+        <div class = "hour col-md-2">2:00 pm</div>
+        <textarea class ="description col-md-8 future" placeholder = ""></textarea>
+        <button class ="btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class="row" id = "hr2">
-        <div class="time">2:00 pm</div>
-        <textarea type ="text" class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
+      <div class="row time-block" id = "hr3">
+        <div class = "hour col-md-2">3:00 pm</div>
+        <textarea class ="description col-md-8 future" placeholder = ""></textarea>
+        <button class ="btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class="row" id = "hr3">
-        <div class="time">3:00 pm</div>
-        <textarea type ="text" class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
+      <div class="row time-block" id = "hr4">
+        <div class = "hour col-md-2">4:00 pm</div>
+        <textarea class ="description col-md-8 future" placeholder = ""></textarea>
+        <button class ="btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class="row" id = "hr4">
-        <div class="time">4:00 pm</div>
-        <textarea type ="text" class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
+      <div class = "row time-block" id = "hr5">
+        <div class = "hour col-md-2">5:00 pm</div>
+        <textarea class ="description col-md-8 future" placeholder = "You made it!"></textarea>
+        <button class =" btn saveBtn col-md-2"><i class="far fa-save"></i></button>
       </div>
 
-      <div class="row" id = "hr5">
-        <div class="time">5:00 pm</div>
-        <textarea type ="text" class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
-      </div>
-
-      <div class="row" id = "hr6">
-        <div class="time">6:00 pm</div>
-        <textarea type ="text" class ="task" placeholder = "tasks for today"></textarea>
-        <button class ="save">Save icon</button>
-      </div>
+      <footer>
+        <p class = "copyright">&copy; 2022 - Made by ReneeDanielleB &hearts;</p>
+      </footer>
 
     </div>
 
